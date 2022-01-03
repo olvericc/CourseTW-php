@@ -34,3 +34,11 @@ echo "<br>";
 echo $languages2[1];
 echo "<br>";
 echo $languages2[2];
+
+// insert 
+
+$languages[3] = "Python";
+
+var_dump($languages);
+echo "<br>";
+

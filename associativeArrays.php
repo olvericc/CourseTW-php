@@ -24,3 +24,13 @@ echo $course["workload"];
 echo "<br>";
 echo $course["status"];
 echo "<br>";
+
+$course["pre-reqs"] = "proggraming logic";
+
+var_dump($course);
+echo "<br>";
+
+$course["php"]["pre-reqs"] = "programming logic";
+
+var_dump($course);
+echo "<br>";
